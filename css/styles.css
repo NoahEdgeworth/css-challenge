@@ -1,0 +1,128 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    margin-left: 200px;
+}
+.main{
+    display: flex;
+    margin: 200px;
+    margin-left: 300px;
+}
+.cars{
+    flex-basis: 300px;
+    height: 600px; 
+}
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: hsla(0, 0%, 100%, 0.75); 
+}
+#sedan-text{
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    padding: 5px;
+    width: 200px;
+    margin-left: 20px;
+    top: 40px;
+    left: 30px;
+    line-height: 2;
+}
+#sedan-title{
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    padding: 5px;
+    width: 150px;
+    margin-left: 20px;
+    padding-top: 30px;
+    top: 30px;
+    left: 30px;
+}
+#sedan-pic{
+    position: relative;
+    top: 45px;
+    left: 30px;
+    margin-left: 20px;
+}
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+#suv-title{
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    padding: 5px;
+    width: 150px;
+    margin-left: 20px;
+    padding-top: 30px;
+    top: 30px;
+    left: 30px;
+}
+#suv-text{
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    padding: 5px;
+    width: 200px;
+    margin-left: 20px;
+    top: 40px;
+    left: 30px;
+    line-height: 2;
+}
+#suv-pic{
+    position: relative;
+    top: 45px;
+    left: 30px;
+    margin-left: 20px;
+}
+#lux{
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+#lux-title{
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    padding: 5px;
+    width: 150px;
+    margin-left: 20px;
+    padding-top: 30px;
+    top: 30px;
+    left: 30px;
+}
+#lux-text{
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    padding: 5px;
+    width: 200px;
+    margin-left: 20px;
+    top: 40px;
+    left: 30px;
+    line-height: 2;
+}
+#lux-pic{
+    position: relative;
+    top: 45px;
+    left: 30px;
+    margin-left: 20px;
+}
+button{
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 12px 24px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+    border: 0;
+    font-family: 'Lexend Deca', sans-serif;;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+#sedans-button{
+    color: hsl(31, 77%, 52%);
+}
+#suc-button{
+    color: hsl(184, 100%, 22%);
+}
+#lux-button{
+    color: hsl(179, 100%, 13%);
+}
